@@ -1,11 +1,9 @@
-var min = function(x, y) {
+function min(x, y) {
     if(x < y) {
         return x;
     } else {
         return y;
     }
-};
+}
 
-var lowest = min(10, 11);
-
-console.log(lowest);
+console.log(min(-   100, 11));
