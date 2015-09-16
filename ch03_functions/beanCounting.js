@@ -1,24 +1,22 @@
 function countBs(string) {
     var count = 0;
-    for (var i = 0; i <= string.length; i++) {
-        if(string.charAt(i) === 'B') {
+    for (var i = 0; i <= string.length; i++)
+        if(string.charAt(i) === 'B')
             count++;
-        }
-    }
-    return "There are " + count + " B's in " + string;
+    return count;
 }
-
-console.log(countBs("AAAaaaBBBbbb"));
 
 function countChar(string, char) {
     var count = 0;
-    for (var i = 0; i <= string.length; i++) {
-        if(string.charAt(i) === char) {
+    for (var i = 0; i <= string.length; i++)
+        if(string.charAt(i) === char)
             count++;
-        }
-    }
-    return "Character: " + char + "\n" + "String: " + string + "\n" + "Count: " + count;
+        return count;
 }
 
+console.log(countBs("AAAaaaBBBbbb"));
+// 3
 console.log(countChar("The Quick Brown Fox", "x"));
+// 1
 console.log(countChar("Sassafrass", "s"));
+// 4

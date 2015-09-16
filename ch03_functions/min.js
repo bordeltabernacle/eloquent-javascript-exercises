@@ -1,9 +1,8 @@
 function min(x, y) {
-    if(x < y) {
+    if(x < y)
         return x;
-    } else {
+    else
         return y;
-    }
 }
 
-console.log(min(-   100, 11));
+console.log(min(-100, 11));
